@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #wrapper{
     height: 100vh;
     overflow-x: hidden;
@@ -13,23 +17,174 @@
     align-items: center;
     height: 100%;
     transform-style: preserve-3d;
-    
     z-index: -1;
 }
 #background,#foreground-1,#foreground-2{
     position: absolute;
     height: 100%;
     width: 100%;
-   object-fit: cover;
+    object-fit: cover;
 }
 #background{
-    transform: translateZ(-40px) scale(6);
+    transform: translateZ(-60px) scale(8);
+    
 }
 
 #foreground-1{
     transform: translateZ(-30px) scale(4);
 }
+
 #foreground-2{
-    transform: translateZ(-10px) ;
-    right: 500px;
+    height: 700px;
+    width: auto;
+    top: 100px;
+    
+ 
+}
+#OP-text{
+    transform: translateZ(-50px) scale(3);   
+}
+
+.sec-1{
+   
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#intro{
+    
+    display:flex;
+    background-image: linear-gradient(to bottom right,#30A2FF,#00C4FF,#FFE7A0,#FFF5B8);
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    color: black;
+    text-align: justify;
+    line-height: 1.7;
+
+}
+.intro-img{
+    position: relative;
+    right: 50px;
+
+    
+}
+.ship-position{
+    position: relative;
+    right: 0;
+}
+.intro-text{
+    position: relative;
+    
+    right: 1px;
+    inline-size: 900px;
+}
+.adjust{
+    position: relative;
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    text-align: justify;
+    
+}
+.text-right{
+    position: absolute;
+    top: 60px;
+    left: 47%;
+}
+.text-left{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+.text-size{
+    inline-size: 700px;
+}
+.bg-1{
+    background-image: url(/images/luffy-bg.jpg);
+}
+.bg-2{
+    background-image: url(/images/zoro-bg.jpg);
+}
+.bg-3{
+    background-image: url(/images/ussop-bg.jpg);
+   
+}
+.bg-4{
+    background-image: url(/images/sanji-bg.jpg);
+}
+.bg-5{
+    background-image: url(/images/nami-bg.jpg);
+    background-position: center;
+}
+.bg-6{
+    background-image: url(/images/chopper-bg.jpg);
+    
+}
+.bg-7{
+    background-image: url(/images/robin-bg.jpg);
+}
+.bg-8{
+    background-image: url(/images/franky-bg.png);
+}
+.bg-9{
+    background-image: url(/images/brook-bg.png);
+    background-position: center;
+}
+.bg-10{
+    background-image: url(/images/jimbei-bg.jpg);
+}
+p,h2{
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 18px;
+}
+.luffy-sec-2{
+    background-image: linear-gradient(#75C2F6,#35A29F);
+}
+.zoro-sec-2{
+    background-image: linear-gradient(#35A29F,#F3AA60);
+}
+.ussop-sec-2{
+    background-image: linear-gradient(#F3AA60,#FBD85D);
+}
+.sanji-sec-2{
+    background-image: linear-gradient(#FBD85D,#068FFF);
+}
+.nami-sec-2{
+    background-image: linear-gradient(#068FFF,#FF90BB);
+}
+.chopper-sec-2{
+    background-image: linear-gradient(#FF90BB,#6554AF);
+}
+.robin-sec-2{
+    background-image: linear-gradient(#6554AF,#00C4FF);
+}
+.franky-sec-2{
+    background-image: linear-gradient(#00C4FF,#35155D);
+}
+.brook-sec-2{
+    background-image: linear-gradient(#35155D,#241468);
+}
+.jinbe-sec-2{
+    background-image: linear-gradient(#241468,#322653);
+}
+.sec-color{
+    color:#F6F1F1
+    
 }
