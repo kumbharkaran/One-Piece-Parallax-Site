@@ -21,8 +21,8 @@
 }
 #background,#foreground-1,#foreground-2{
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height:100%;
+    width:100%;
     object-fit: cover;
 }
 #background{
@@ -83,7 +83,6 @@
 }
 .intro-text{
     position: relative;
-    
     right: 1px;
     inline-size: 900px;
 }
@@ -186,5 +185,196 @@ p{
 }
 .sec-color{
     color:#F6F1F1
+    
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(#322653,black);
+    color: white;
+    height: 200px;
+    
+}
+footer p{
+    margin-top: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+#foreground-2{
+    animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+@media screen and (max-width: 932px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #wrapper{
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        perspective: 10px;
+        
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        transform-style: preserve-3d;
+        z-index: -1;
+    }
+    #background,#foreground-1,#foreground-2{
+        position: absolute;
+        height:100%;
+        width:100%;
+        object-fit: cover;
+    }
+    #background{
+        transform: translateZ(-60px) scale(30);
+        height: 200px;
+        width: 100%;
+        
+    }
+    
+    #foreground-1{
+        transform: translateZ(-30px) scale(5) translateX(-20px);
+        height: 200px;
+        width: 100%;
+        overflow: visible;
+    }
+    
+    #foreground-2{
+        overflow: visible;
+        height: 100px;
+        width: 100%;
+        top: 200px;
+        
+     
+    }
+    #OP-text{
+        transform: translateZ(-50px) scale(.9) translateY(-400px);   
+    }
+    #intro{
+    
+        display:flex;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom right,#30A2FF,#00C4FF,#FFE7A0,#FFF5B8);
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        font-weight: 100;
+        color: black;
+        text-align: justify;
+        line-height: 1.7;
+        height: 100%;
+        width: 100%;
+    
+    }
+    .intro-text{
+        width: 100%;
+    }
+    .intro-img{
+        position: relative;
+        right: 10px;
+    
+        
+    }
+    .ship-position{
+        position: relative;
+        right: 0;
+    }
+    .bg{
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .adjust{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: burlywood;
+        justify-content: center;
+        align-items: center;
+        padding: 80px;
+        text-align: justify;
+        
+    }
+    .text-right{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .adjust h2{
+        font-size: 40px;
+        
+        transform: translateX(40px);
+    }
+    .adjust img{
+        height: 300px;
+    }
+    .sec-1 img{
+        height: 100px;
+    }
+    .text-size{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .text-left{
+        top: 20px;
+        left: 40px;
+        text-align: center;
+    }
+    .ussop-sec-2 h2{
+        margin-left: 70px;
+    }
+    .sanji-sec-2 h2{
+        margin-left: 60px;
+    }
+    .nami-sec-2 h2{
+        margin-left: 70px;
+    }
+    .chopper-sec-2 h2{
+       left: 5px;
+    }
+    .robin-sec-2 h2{
+       left: 55px;
+    }
+    .franky-sec-2 h2{
+        left: 85px;
+    }
+    .brook-sec-2 h2{
+        left: 100px;
+    }
+    .jinbe-sec-2 h2{
+        left: 100px;
+    }
+    .bg-3{
+        background-position-x: 0px;
+    }
+    .bg-4{
+        background-position-x: -600px;
+    }
+    .bg-10 img{
+        height: 400px;
+    }
     
 }
