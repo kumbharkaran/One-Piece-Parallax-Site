@@ -110,38 +110,38 @@
     inline-size: 700px;
 }
 .bg-1{
-    background-image: url(./images/luffy-bg.webp);
+    background-image: url(./images/luffy-bg.jpg);
 }
 .bg-2{
-    background-image: url(./images/zoro-bg.webp);
+    background-image: url(./images/zoro-bg.jpg);
 }
 .bg-3{
-    background-image: url(./images/ussop-bg.webp);
+    background-image: url(./images/ussop-bg.jpg);
    
 }
 .bg-4{
-    background-image: url(./images/sanji-bg.webp);
+    background-image: url(./images/sanji-bg.jpg);
 }
 .bg-5{
-    background-image: url(./images/nami-bg.webp);
+    background-image: url(./images/nami-bg.jpg);
     background-position: center;
 }
 .bg-6{
-    background-image: url(./images/chopper-bg.webp);
+    background-image: url(./images/chopper-bg.jpg);
     
 }
 .bg-7{
-    background-image: url(./images/robin-bg.webp);
+    background-image: url(./images/robin-bg.jpg);
 }
 .bg-8{
-    background-image: url(./images/franky-bg.webp);
+    background-image: url(./images/franky-bg.png);
 }
 .bg-9{
-    background-image: url(./images/brook-bg.webp);
+    background-image: url(./images/brook-bg.png);
     background-position: center;
 }
 .bg-10{
-    background-image: url(./images/jimbei-bg.webp);
+    background-image: url(./images/jimbei-bg.jpg);
 }
 p,h2{
     font-family: 'Cormorant Garamond', serif;
