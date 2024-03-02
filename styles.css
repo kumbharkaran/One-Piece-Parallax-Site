@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+#preloader{
+    background: black url("./images/One-Piece-Flag.gif") no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 #wrapper{
     height: 100vh;
     overflow-x: hidden;
@@ -225,6 +233,9 @@ footer a{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+    #preloader{
+        background-size: 40%;
     }
     #wrapper{
         height: 100vh;

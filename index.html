@@ -13,6 +13,7 @@
 </head> 
 <body>
     <div id="wrapper">
+        <div id="preloader"></div>
         <div class="container">
             <img src="./images/background.jpg" id="background">
             <img src="./images/foreground-1.png" id="foreground-1">
@@ -267,6 +268,15 @@
         <footer>
             <p>Website Developed by <a href="https://github.com/kumbharkaran" target="_blank"><br><br><i class="fa fa-github"></i> Karan Kumbhar</a> </p>
         </footer>
+        <script>
+            var loader = document.getElementById("preloader");
+
+            window.addEventListener("load",function(){
+                setTimeout(function(){
+                    loader.style.display = "none";
+                },1500);
+            });
+        </script>
     </div>
 </body>
 </html>
